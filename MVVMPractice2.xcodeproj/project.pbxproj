@@ -13,6 +13,18 @@
 		1765D0E42AB1D85800135C24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1765D0E22AB1D85800135C24 /* Main.storyboard */; };
 		1765D0E62AB1D85900135C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1765D0E52AB1D85900135C24 /* Assets.xcassets */; };
 		1765D0E92AB1D85900135C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1765D0E72AB1D85900135C24 /* LaunchScreen.storyboard */; };
+		1765D0F32AB1D8D100135C24 /* OperatorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D0F22AB1D8D100135C24 /* OperatorEnum.swift */; };
+		1765D0F52AB1D8E800135C24 /* CalculatorObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D0F42AB1D8E800135C24 /* CalculatorObservable.swift */; };
+		1765D0F82AB1D90900135C24 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D0F72AB1D90900135C24 /* CalculatorViewModel.swift */; };
+		1765D0FB2AB1D92D00135C24 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1765D0FA2AB1D92D00135C24 /* Alamofire */; };
+		1765D0FE2AB1D93C00135C24 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1765D0FD2AB1D93C00135C24 /* SnapKit */; };
+		1765D1012AB1D96D00135C24 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D1002AB1D96D00135C24 /* CalculatorViewController.swift */; };
+		1765D1052AB1D9BE00135C24 /* LottoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D1042AB1D9BE00135C24 /* LottoModel.swift */; };
+		1765D1082AB1D9EE00135C24 /* LottoObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D1072AB1D9EE00135C24 /* LottoObservable.swift */; };
+		1765D10B2AB1DA1500135C24 /* URLSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D10A2AB1DA1500135C24 /* URLSingleton.swift */; };
+		1765D10D2AB1DA2900135C24 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D10C2AB1DA2900135C24 /* APIManager.swift */; };
+		1765D1102AB1DA7900135C24 /* LottoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D10F2AB1DA7900135C24 /* LottoViewModel.swift */; };
+		1765D1132AB1DAB400135C24 /* LottoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1765D1122AB1DAB400135C24 /* LottoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,16 @@
 		1765D0E52AB1D85900135C24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1765D0E82AB1D85900135C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1765D0EA2AB1D85900135C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1765D0F22AB1D8D100135C24 /* OperatorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorEnum.swift; sourceTree = "<group>"; };
+		1765D0F42AB1D8E800135C24 /* CalculatorObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorObservable.swift; sourceTree = "<group>"; };
+		1765D0F72AB1D90900135C24 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		1765D1002AB1D96D00135C24 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		1765D1042AB1D9BE00135C24 /* LottoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoModel.swift; sourceTree = "<group>"; };
+		1765D1072AB1D9EE00135C24 /* LottoObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoObservable.swift; sourceTree = "<group>"; };
+		1765D10A2AB1DA1500135C24 /* URLSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSingleton.swift; sourceTree = "<group>"; };
+		1765D10C2AB1DA2900135C24 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		1765D10F2AB1DA7900135C24 /* LottoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewModel.swift; sourceTree = "<group>"; };
+		1765D1122AB1DAB400135C24 /* LottoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1765D0FB2AB1D92D00135C24 /* Alamofire in Frameworks */,
+				1765D0FE2AB1D93C00135C24 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,8 @@
 		1765D0DB2AB1D85800135C24 /* MVVMPractice2 */ = {
 			isa = PBXGroup;
 			children = (
+				1765D1022AB1D99C00135C24 /* Lotto */,
+				1765D0F02AB1D8AE00135C24 /* Calculator */,
 				1765D0DC2AB1D85800135C24 /* AppDelegate.swift */,
 				1765D0DE2AB1D85800135C24 /* SceneDelegate.swift */,
 				1765D0E02AB1D85800135C24 /* ViewController.swift */,
@@ -65,6 +91,94 @@
 				1765D0EA2AB1D85900135C24 /* Info.plist */,
 			);
 			path = MVVMPractice2;
+			sourceTree = "<group>";
+		};
+		1765D0F02AB1D8AE00135C24 /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				1765D0FF2AB1D94F00135C24 /* View */,
+				1765D0F62AB1D8FB00135C24 /* ViewModel */,
+				1765D0F12AB1D8C200135C24 /* Uitility */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		1765D0F12AB1D8C200135C24 /* Uitility */ = {
+			isa = PBXGroup;
+			children = (
+				1765D0F22AB1D8D100135C24 /* OperatorEnum.swift */,
+				1765D0F42AB1D8E800135C24 /* CalculatorObservable.swift */,
+			);
+			path = Uitility;
+			sourceTree = "<group>";
+		};
+		1765D0F62AB1D8FB00135C24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1765D0F72AB1D90900135C24 /* CalculatorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1765D0FF2AB1D94F00135C24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1765D1002AB1D96D00135C24 /* CalculatorViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1765D1022AB1D99C00135C24 /* Lotto */ = {
+			isa = PBXGroup;
+			children = (
+				1765D1112AB1DA9A00135C24 /* View */,
+				1765D10E2AB1DA6500135C24 /* ViewModel */,
+				1765D1062AB1D9D900135C24 /* Utility */,
+				1765D1032AB1D9B000135C24 /* Model */,
+			);
+			path = Lotto;
+			sourceTree = "<group>";
+		};
+		1765D1032AB1D9B000135C24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1765D1042AB1D9BE00135C24 /* LottoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1765D1062AB1D9D900135C24 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1765D1092AB1D9FA00135C24 /* Network */,
+				1765D1072AB1D9EE00135C24 /* LottoObservable.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1765D1092AB1D9FA00135C24 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1765D10A2AB1DA1500135C24 /* URLSingleton.swift */,
+				1765D10C2AB1DA2900135C24 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1765D10E2AB1DA6500135C24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1765D10F2AB1DA7900135C24 /* LottoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1765D1112AB1DA9A00135C24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1765D1122AB1DAB400135C24 /* LottoViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +197,10 @@
 			dependencies = (
 			);
 			name = MVVMPractice2;
+			packageProductDependencies = (
+				1765D0FA2AB1D92D00135C24 /* Alamofire */,
+				1765D0FD2AB1D93C00135C24 /* SnapKit */,
+			);
 			productName = MVVMPractice2;
 			productReference = 1765D0D92AB1D85800135C24 /* MVVMPractice2.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +229,10 @@
 				Base,
 			);
 			mainGroup = 1765D0D02AB1D85800135C24;
+			packageReferences = (
+				1765D0F92AB1D92D00135C24 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1765D0FC2AB1D93C00135C24 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 1765D0DA2AB1D85800135C24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,7 +262,17 @@
 			files = (
 				1765D0E12AB1D85800135C24 /* ViewController.swift in Sources */,
 				1765D0DD2AB1D85800135C24 /* AppDelegate.swift in Sources */,
+				1765D1082AB1D9EE00135C24 /* LottoObservable.swift in Sources */,
+				1765D0F32AB1D8D100135C24 /* OperatorEnum.swift in Sources */,
+				1765D10D2AB1DA2900135C24 /* APIManager.swift in Sources */,
 				1765D0DF2AB1D85800135C24 /* SceneDelegate.swift in Sources */,
+				1765D1102AB1DA7900135C24 /* LottoViewModel.swift in Sources */,
+				1765D0F82AB1D90900135C24 /* CalculatorViewModel.swift in Sources */,
+				1765D1012AB1D96D00135C24 /* CalculatorViewController.swift in Sources */,
+				1765D10B2AB1DA1500135C24 /* URLSingleton.swift in Sources */,
+				1765D1052AB1D9BE00135C24 /* LottoModel.swift in Sources */,
+				1765D1132AB1DAB400135C24 /* LottoViewController.swift in Sources */,
+				1765D0F52AB1D8E800135C24 /* CalculatorObservable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +424,6 @@
 				INFOPLIST_FILE = MVVMPractice2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +451,6 @@
 				INFOPLIST_FILE = MVVMPractice2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +488,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1765D0F92AB1D92D00135C24 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		1765D0FC2AB1D93C00135C24 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1765D0FA2AB1D92D00135C24 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1765D0F92AB1D92D00135C24 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		1765D0FD2AB1D93C00135C24 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1765D0FC2AB1D93C00135C24 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1765D0D12AB1D85800135C24 /* Project object */;
 }
